@@ -13,7 +13,7 @@
 * How fast y changes when x changes
 * 1st derivatives: speed/slope
 * 2nd derivatives: how speed changes/curvature(how fast dy/dx changes when x changes)
-* 3rd derivatives: how curvature changes (how d2y/dx2 changes when x changes)
+* 3rd derivatives: how curvature changes (how d2y/dx2 changes when x changes
 
 
 
@@ -35,17 +35,7 @@
 * &nbsp;	x= 2, y= 7.39
 * &nbsp;	x= 3, y= 20.09 
 
-###### **The Logic (Why Factorials?)**: 
-You realized that factorials are not random magic numbers. They are the "cleanup crew."
-* Differentiation naturally multiplies coefficients by n,n−1,n−2... creating a mess(like turning a "3" into "18").
-* Dividing by n! cancels this out, ensuring that the coefficient we use perfectly matches the true derivative of the function.
 
-###### **Only suitable for smooth function**: 
-You learned that because "smooth" functions (like sinx or e 
-x) have unbroken derivatives, we can reconstruct them entirely just by looking at one single point (x=0) and checking:
-* Where is it? (Value)
-* Which way is it going? (Slope)
-* How is it turning? (Curvature)
 
 
 
